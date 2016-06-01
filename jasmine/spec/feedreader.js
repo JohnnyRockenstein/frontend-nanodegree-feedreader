@@ -85,7 +85,6 @@ $(function() {
                 it('has loaded', function(done) {
                     var children = $('.feed').children();
                     var hasChild = false;
-                    console.log(children);
                     for (var i = 0; i < children.length; i++) {
                         var child = children[i];
                         if ($(child).find('.entry'))
